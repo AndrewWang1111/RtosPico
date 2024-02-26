@@ -1,0 +1,604 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "FreeRTOS-Kernel/portable/libfreertos_kernel_port.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"FreeRTOS-Kernel/portable/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 986,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 675,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_PLATFORM=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_SYNC=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_SYNC_CRITICAL_SECTION=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_SYNC_MUTEX=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_SYNC_SEM=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_TIME=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_UTIL=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_ON_DEVICE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/wjl/RtosPico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/common/pico_base/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/RtosPico/build/generated/pico_base"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/pico_platform/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/RtosPico/FreeRTOS-Kernel/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/RtosPico/FreeRTOS-Kernel"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_exception/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_PLATFORM=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_SYNC=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_SYNC_CRITICAL_SECTION=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_SYNC_MUTEX=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_SYNC_SEM=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_TIME=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_UTIL=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_ON_DEVICE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/wjl/RtosPico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/common/pico_base/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/RtosPico/build/generated/pico_base"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/pico_platform/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/RtosPico/FreeRTOS-Kernel/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/RtosPico/FreeRTOS-Kernel"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_exception/include"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				8
+			]
+		}
+	],
+	"id" : "freertos_kernel_port::@3b750e658ec9e84f3050",
+	"name" : "freertos_kernel_port",
+	"nameOnDisk" : "libfreertos_kernel_port.a",
+	"paths" : 
+	{
+		"build" : "FreeRTOS-Kernel/portable",
+		"source" : "FreeRTOS-Kernel/portable"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/idle_task_static_memory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/pico_platform/platform.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/common/pico_sync/sem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/common/pico_sync/lock_core.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/common/pico_sync/mutex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/common/pico_sync/critical_section.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/common/pico_time/time.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/common/pico_time/timeout_helper.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/common/pico_util/datetime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/common/pico_util/pheap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/common/pico_util/queue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

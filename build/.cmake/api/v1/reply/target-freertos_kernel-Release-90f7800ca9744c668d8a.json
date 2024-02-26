@@ -1,0 +1,222 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "FreeRTOS-Kernel/libfreertos_kernel.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"FreeRTOS-Kernel/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 208,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_ON_DEVICE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/wjl/RtosPico/FreeRTOS-Kernel/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wjl/RtosPico/FreeRTOS-Kernel"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/RtosPico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/common/pico_base/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/RtosPico/build/generated/pico_base"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/pico_platform/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/wjl/pico/pico-sdk/src/rp2_common/hardware_base/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "freertos_kernel_port::@3b750e658ec9e84f3050"
+		}
+	],
+	"id" : "freertos_kernel::@8d1fe2b5824bfeb7a79b",
+	"name" : "freertos_kernel",
+	"nameOnDisk" : "libfreertos_kernel.a",
+	"paths" : 
+	{
+		"build" : "FreeRTOS-Kernel",
+		"source" : "FreeRTOS-Kernel"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS-Kernel/croutine.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS-Kernel/event_groups.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS-Kernel/list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS-Kernel/queue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS-Kernel/stream_buffer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS-Kernel/tasks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS-Kernel/timers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS-Kernel/portable/MemMang/heap_4.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
